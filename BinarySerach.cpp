@@ -21,4 +21,13 @@ void input()
         }
     }
 
+    cout << "===========================\n";
+    cout << "   Masukkan Elemen Array   \n";
+    cout << "===========================\n";
+    for (int i = 1; i <= nPanjang; i++)
+    {
+        cout << "Data ke-" << i << ": ";
+        cin >> element[i];
+    }
+
 }
